@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(dunkirk.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 60vh;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    padding: 9px;
+    color: #3dcfd3;
+}
+.two{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0 20px 20px 0px;
+    width: 60%;
+    text-align: left;
+}
+.intro{
+    padding: 9px;
+}
+.logo{
+    padding: 9px;
+    cursor: pointer;
+}
+p{
+    display: flex;
+}
+.social{
+    padding: 9px;
+}
+.icon{
+    font-size: 25px;
+}
+.fa-brands{
+    gap: 20px;
+    border-radius: 30%;
+    color: #000;
+}
+.contact{
+    text-align: left;
+}
+input{
+    width: 90%;
+    height: 35px;
+    border-radius: 15px;
+    outline:none;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+input:hover{
+    border-color:#fff;
+}
+.info{
+    padding: 9px;
+}
+.message{
+    height: 90px;
+}
+.button{
+    padding: 9px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    padding: 9px;
+}
+button:hover{
+    background-color: #3dcfd3;
+    cursor: pointer;
+}
+textarea{
+    width: 90%;
+    height: 35px;
+    border-radius: 15px;
+    outline:none;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+textarea:hover{
+    border-color: #fff;
+}
