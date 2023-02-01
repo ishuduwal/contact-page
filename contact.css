@@ -8,8 +8,6 @@ body{
     background-image: url(dunkirk.jpg);
     height: 100vh;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 90px;
 }
 .container{
